@@ -37,22 +37,21 @@ O servidor estará disponível em http://127.0.0.1:5000. Por padrão, o comando 
 
 **5. Acesse os endpoints:**
 
-* API de Métricas: Para ver a resposta JSON com os dados dos provedores.
-
+* **API de Métricas:** Para ver a resposta JSON com os dados dos provedores.
   * http://127.0.0.1:5000/metrics
 
-* Documentação Interativa (Swagger UI): Para explorar a API e testá-la diretamente do navegador.
+* **Documentação Interativa (Swagger UI):** Para explorar a API e testá-la diretamente do navegador.
+  * http://127.0.0.1:5000/apidocs/
 
-  * http://127.0.0.1:5000/docs
+### 📁 Estrutura do Projeto
 
-## 📁 Estrutura do Projeto
-
+```text
 desafio-multicloud/
 ├── venv/                 # Ambiente virtual do Python (ignorado pelo Git)
 ├── app.py                # Código-fonte principal da aplicação Flask
 ├── requirements.txt      # Lista de dependências para instalação
 └── README.md             # Este arquivo de documentação
-
+```
 
 ## 👨‍💻 Autor
 **Daniel dos Santos Saraiva**
